@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1766</width>
+    <height>1261</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Page 1</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(0, 125, 0);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-40</x>
+      <y>310</y>
+      <width>1841</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(200, 187, 9); border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-40</x>
+      <y>390</y>
+      <width>1841</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(200, 187, 9); border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>340</y>
+      <width>1761</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(200, 187, 9);</string>
+    </property>
+    <property name="text">
+     <string>^ Dealer ^</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_hit">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>1140</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;</string>
+    </property>
+    <property name="text">
+     <string>HIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_stand">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>1140</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;</string>
+    </property>
+    <property name="text">
+     <string>STAND</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_split">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>1140</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;</string>
+    </property>
+    <property name="text">
+     <string>SPLIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_bet">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>1140</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;</string>
+    </property>
+    <property name="text">
+     <string>BET</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_exit">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>1140</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>1120</y>
+      <width>1421</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(135, 68, 0); border: 3px solid #E9B82B;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_bet">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>1086</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>1070</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(135, 68, 0); border: 3px solid #E9B82B;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>1050</y>
+      <width>1841</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(200, 187, 9); border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>690</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph16">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>490</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph15">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>530</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph14">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>570</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph13">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>610</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph12">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>650</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph21">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>690</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph23">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>610</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph24">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>570</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph25">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>530</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph26">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>490</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph22">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>650</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph31">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>690</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph33">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>610</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph34">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>570</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph35">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>530</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph36">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>490</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph32">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>650</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph41">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>690</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph43">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>610</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph44">
+    <property name="geometry">
+     <rect>
+      <x>1460</x>
+      <y>570</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph45">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>530</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph46">
+    <property name="geometry">
+     <rect>
+      <x>1540</x>
+      <y>490</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ph42">
+    <property name="geometry">
+     <rect>
+      <x>1380</x>
+      <y>650</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_d4">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>10</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_d3">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>10</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_d5">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>10</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_d2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>10</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_d1">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>181</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);  border: 3px solid #000000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_36">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>990</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;
+background-color: rgb(149, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Hand One</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_37">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>990</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;
+background-color: rgb(149, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Hand Two</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_38">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>990</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;
+background-color: rgb(149, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Hand Three</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_39">
+    <property name="geometry">
+     <rect>
+      <x>1460</x>
+      <y>990</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;
+background-color: rgb(149, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Hand Four</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_start">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>1140</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;</string>
+    </property>
+    <property name="text">
+     <string>START</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_double">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>1140</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;</string>
+    </property>
+    <property name="text">
+     <string>DOUBLE</string>
+    </property>
+   </widget>
+   <zorder>lbl_ph41</zorder>
+   <zorder>lbl_ph42</zorder>
+   <zorder>lbl_ph31</zorder>
+   <zorder>lbl_ph32</zorder>
+   <zorder>lbl_ph21</zorder>
+   <zorder>lbl_ph22</zorder>
+   <zorder>lbl_ph23</zorder>
+   <zorder>lbl_ph24</zorder>
+   <zorder>lbl_ph25</zorder>
+   <zorder>lbl_ph26</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>btn_hit</zorder>
+   <zorder>btn_stand</zorder>
+   <zorder>btn_split</zorder>
+   <zorder>btn_bet</zorder>
+   <zorder>btn_exit</zorder>
+   <zorder>txt_bet</zorder>
+   <zorder>label_6</zorder>
+   <zorder>lbl_ph11</zorder>
+   <zorder>lbl_ph12</zorder>
+   <zorder>lbl_ph13</zorder>
+   <zorder>lbl_ph14</zorder>
+   <zorder>lbl_ph15</zorder>
+   <zorder>lbl_ph16</zorder>
+   <zorder>lbl_ph43</zorder>
+   <zorder>lbl_ph44</zorder>
+   <zorder>lbl_ph45</zorder>
+   <zorder>lbl_ph46</zorder>
+   <zorder>lbl_ph33</zorder>
+   <zorder>lbl_ph34</zorder>
+   <zorder>lbl_ph35</zorder>
+   <zorder>lbl_ph36</zorder>
+   <zorder>lbl_d4</zorder>
+   <zorder>lbl_d3</zorder>
+   <zorder>lbl_d5</zorder>
+   <zorder>lbl_d2</zorder>
+   <zorder>lbl_d1</zorder>
+   <zorder>label_36</zorder>
+   <zorder>label_37</zorder>
+   <zorder>label_38</zorder>
+   <zorder>label_39</zorder>
+   <zorder>btn_start</zorder>
+   <zorder>btn_double</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_hit</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_hit_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>465</x>
+     <y>1197</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>1175</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_stand</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_stand_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>705</x>
+     <y>1158</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>708</x>
+     <y>1088</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_bet</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_bet_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>879</x>
+     <y>1173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1024</x>
+     <y>1075</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_split</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_split_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1092</x>
+     <y>1174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1152</x>
+     <y>1075</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_exit</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_exit_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1465</x>
+     <y>1169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1323</x>
+     <y>1079</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_start</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_start_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>286</x>
+     <y>1208</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>364</x>
+     <y>1084</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_double</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_double_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1356</x>
+     <y>1199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1616</x>
+     <y>1097</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_hit_a()</slot>
+  <slot>btn_stand_a()</slot>
+  <slot>btn_bet_a()</slot>
+  <slot>btn_split_a()</slot>
+  <slot>btn_exit_a()</slot>
+  <slot>btn_start_a()</slot>
+  <slot>btn_double_a()</slot>
+ </slots>
+</ui>

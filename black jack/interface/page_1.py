@@ -21,48 +21,61 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     
     
     
-    cards = ["images/02_of_clubs.png","images/02_of_diamonds.png","images/02_of_hearts.png","images/02_of_spades.png","images/03_of_clubs.png","images/03_of_diamonds.png","images/03_of_hearts.png","images/03_of_spades.png","images/04_of_clubs.png","images/04_of_diamonds.png","images/04_of_hearts.png","images/04_of_spades.png","images/05_of_clubs.png","images/05_of_diamonds.png","images/05_of_hearts.png","images/05_of_spades.png","images/06_of_clubs.png","images/06_of_diamonds.png","images/06_of_hearts.png","images/06_of_spades.png","images/07_of_clubs.png","images/07_of_diamonds.png","images/07_of_hearts.png","images/07_of_spades.png","images/08_of_clubs.png","images/08_of_diamonds.png","images/08_of_hearts.png","images/08_of_spades.png","images/09_of_clubs.png","images/09_of_diamonds.png","images/09_of_hearts.png","images/09_of_spades.png","images/10_jack_of_clubs.png","images/10_jack_of_diamonds.png","images/10_jack_of_hearts.png","images/10_jack_of_spades.png","images/10_king_of_clubs.png","images/10_king_of_diamonds.png","images/10_king_of_hearts.png","images/10_king_of_spades.png","images/10_of_clubs.png","images/10_of_diamonds.png","images/10_of_hearts.png","images/10_of_spades.png","images/10_queen_of_clubs.png","images/10_queen_of_diamonds.png","images/10_queen_of_hearts.png","images/10_queen_of_spades.png","images/11_ace_of_clubs.png","images/11_ace_of_diamonds.png","images/11_ace_of_hearts.png","images/11_ace_of_spades.png"]
-    backupcards = ["images/02_of_clubs.png","images/02_of_diamonds.png","images/02_of_hearts.png","images/02_of_spades.png","images/03_of_clubs.png","images/03_of_diamonds.png","images/03_of_hearts.png","images/03_of_spades.png","images/04_of_clubs.png","images/04_of_diamonds.png","images/04_of_hearts.png","images/04_of_spades.png","images/05_of_clubs.png","images/05_of_diamonds.png","images/05_of_hearts.png","images/05_of_spades.png","images/06_of_clubs.png","images/06_of_diamonds.png","images/06_of_hearts.png","images/06_of_spades.png","images/07_of_clubs.png","images/07_of_diamonds.png","images/07_of_hearts.png","images/07_of_spades.png","images/08_of_clubs.png","images/08_of_diamonds.png","images/08_of_hearts.png","images/08_of_spades.png","images/09_of_clubs.png","images/09_of_diamonds.png","images/09_of_hearts.png","images/09_of_spades.png","images/10_jack_of_clubs.png","images/10_jack_of_diamonds.png","images/10_jack_of_hearts.png","images/10_jack_of_spades.png","images/10_king_of_clubs.png","images/10_king_of_diamonds.png","images/10_king_of_hearts.png","images/10_king_of_spades.png","images/10_of_clubs.png","images/10_of_diamonds.png","images/10_of_hearts.png","images/10_of_spades.png","images/10_queen_of_clubs.png","images/10_queen_of_diamonds.png","images/10_queen_of_hearts.png","images/10_queen_of_spades.png","images/11_ace_of_clubs.png","images/11_ace_of_diamonds.png","images/11_ace_of_hearts.png","images/11_ace_of_spades.png"]
-    
+    cards = ["02_of_clubs.png","02_of_diamonds.png","02_of_hearts.png","02_of_spades.png","03_of_clubs.png","03_of_diamonds.png","03_of_hearts.png","03_of_spades.png","04_of_clubs.png","04_of_diamonds.png","04_of_hearts.png","04_of_spades.png","05_of_clubs.png","05_of_diamonds.png","05_of_hearts.png","05_of_spades.png","06_of_clubs.png","06_of_diamonds.png","06_of_hearts.png","06_of_spades.png","07_of_clubs.png","07_of_diamonds.png","07_of_hearts.png","07_of_spades.png","08_of_clubs.png","08_of_diamonds.png","08_of_hearts.png","08_of_spades.png","09_of_clubs.png","09_of_diamonds.png","09_of_hearts.png","09_of_spades.png","10_jack_of_clubs.png","10_jack_of_diamonds.png","10_jack_of_hearts.png","10_jack_of_spades.png","10_king_of_clubs.png","10_king_of_diamonds.png","10_king_of_hearts.png","10_king_of_spades.png","10_of_clubs.png","10_of_diamonds.png","10_of_hearts.png","10_of_spades.png","10_queen_of_clubs.png","10_queen_of_diamonds.png","10_queen_of_hearts.png","10_queen_of_spades.png","11_ace_of_clubs.png","11_ace_of_diamonds.png","11_ace_of_hearts.png","11_ace_of_spades.png"]
+    backupcards = ["02_of_clubs.png","02_of_diamonds.png","02_of_hearts.png","02_of_spades.png","03_of_clubs.png","03_of_diamonds.png","03_of_hearts.png","03_of_spades.png","04_of_clubs.png","04_of_diamonds.png","04_of_hearts.png","04_of_spades.png","05_of_clubs.png","05_of_diamonds.png","05_of_hearts.png","05_of_spades.png","06_of_clubs.png","06_of_diamonds.png","06_of_hearts.png","06_of_spades.png","07_of_clubs.png","07_of_diamonds.png","07_of_hearts.png","07_of_spades.png","08_of_clubs.png","08_of_diamonds.png","08_of_hearts.png","08_of_spades.png","09_of_clubs.png","09_of_diamonds.png","09_of_hearts.png","09_of_spades.png","10_jack_of_clubs.png","10_jack_of_diamonds.png","10_jack_of_hearts.png","10_jack_of_spades.png","10_king_of_clubs.png","10_king_of_diamonds.png","10_king_of_hearts.png","10_king_of_spades.png","10_of_clubs.png","10_of_diamonds.png","10_of_hearts.png","10_of_spades.png","10_queen_of_clubs.png","10_queen_of_diamonds.png","10_queen_of_hearts.png","10_queen_of_spades.png","11_ace_of_clubs.png","11_ace_of_diamonds.png","11_ace_of_hearts.png","11_ace_of_spades.png"]
     
     count=0
     
+   
+    
     def btn_start_a(self):
         random.shuffle(self.cards)
-        self.lbl_ph11.setPixmap(QPixmap(f"{self.cards[0]}"))
+        ph1c1 = random.choice(self.cards)
+        self.lbl_ph11.setPixmap(QPixmap(f"images/{ph1c1}"))
         self.lbl_ph11.setStyleSheet("background-color: rgb(0,0,0);  border: 3px solid #000000;")
-        self.cards.pop(0)
-        self.lbl_ph12.setPixmap(QPixmap(f"{self.cards[0]}"))
+        self.cards.remove(ph1c1)
+        value1=int(ph1c1[0:2])
+        print(value1)
+        ph1c2 = random.choice(self.cards)
+        self.lbl_ph12.setPixmap(QPixmap(f"images/{ph1c2}"))
         self.lbl_ph12.setStyleSheet("background-color: rgb(0,0,0);  border: 3px solid #000000;")
-        self.cards.pop(0)
+        self.cards.remove(ph1c2)
+        value2=int(ph1c2[0:2])
+        print(value2)
         self.btn_start.setEnabled(False)
         self.count+=1
+        hvaule= value1 + value2
+        print(hvaule)
     
     def btn_double_a(self):
         pass
             
     def btn_hit_a(self):
         if self.count==1:
-            self.lbl_ph13.setPixmap(QPixmap(f"{self.cards[0]}"))
-            self.cards.pop(0)
+            a = random.choice(self.cards)
+            self.lbl_ph13.setPixmap(QPixmap(f"images/{a}"))
+            self.cards.remove(a)
             self.count+=1
             self.lbl_ph13.setStyleSheet("background-color: rgb(0,0,0);  border: 3px solid #000000;")
         
         elif self.count==2:
-            self.lbl_ph14.setPixmap(QPixmap(f"{self.cards[0]}"))
-            self.cards.pop(0)
+            a = random.choice(self.cards)
+            self.lbl_ph14.setPixmap(QPixmap(f"images/{a}"))
+            self.cards.remove(a)
             self.count+=1
             self.lbl_ph14.setStyleSheet("background-color: rgb(0,0,0);  border: 3px solid #000000;")
             
         elif self.count==3:
-            self.lbl_ph15.setPixmap(QPixmap(f"{self.cards[0]}"))
-            self.cards.pop(0)
+            a = random.choice(self.cards)
+            self.lbl_ph15.setPixmap(QPixmap(f"images/{a}"))
+            self.cards.remove(a)
             self.count+=1
             self.lbl_ph15.setStyleSheet("background-color: rgb(0,0,0);  border: 3px solid #000000;")
             
         elif self.count==4:
-            self.lbl_ph16.setPixmap(QPixmap(f"{self.cards[0]}"))
-            self.cards.pop(0)
+            a = random.choice(self.cards)
+            self.lbl_ph16.setPixmap(QPixmap(f"images/{a}"))
+            self.cards.remove(a)
             self.count+=1
             self.lbl_ph16.setStyleSheet("background-color: rgb(0,0,0);  border: 3px solid #000000;")
     

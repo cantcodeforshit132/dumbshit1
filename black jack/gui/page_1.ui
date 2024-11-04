@@ -10,6 +10,11 @@
     <height>1261</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>16</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>Page 1</string>
   </property>
@@ -74,14 +79,14 @@ color: rgb(200, 187, 9);</string>
      <string>^ Dealer ^</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_hit">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>1140</y>
+      <x>80</x>
+      <y>200</y>
       <width>181</width>
       <height>101</height>
      </rect>
@@ -102,8 +107,8 @@ color: rgb(200, 187, 9);</string>
    <widget class="QPushButton" name="btn_stand">
     <property name="geometry">
      <rect>
-      <x>600</x>
-      <y>1140</y>
+      <x>80</x>
+      <y>0</y>
       <width>181</width>
       <height>101</height>
      </rect>
@@ -124,8 +129,8 @@ color: rgb(200, 187, 9);</string>
    <widget class="QPushButton" name="btn_split">
     <property name="geometry">
      <rect>
-      <x>1000</x>
-      <y>1140</y>
+      <x>80</x>
+      <y>300</y>
       <width>181</width>
       <height>101</height>
      </rect>
@@ -716,6 +721,9 @@ color: rgb(200, 187, 9);</string>
     <property name="text">
      <string/>
     </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="lbl_d3">
     <property name="geometry">
@@ -731,6 +739,9 @@ color: rgb(200, 187, 9);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="lbl_d5">
@@ -748,6 +759,9 @@ color: rgb(200, 187, 9);</string>
     <property name="text">
      <string/>
     </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="lbl_d2">
     <property name="geometry">
@@ -763,6 +777,9 @@ color: rgb(200, 187, 9);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="lbl_d1">
@@ -780,116 +797,15 @@ color: rgb(200, 187, 9);</string>
     <property name="text">
      <string/>
     </property>
-   </widget>
-   <widget class="QLabel" name="label_36">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>990</y>
-      <width>181</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border: 3px solid #E9B82B;
-background-color: rgb(149, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string>Hand One</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_37">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>990</y>
-      <width>181</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border: 3px solid #E9B82B;
-background-color: rgb(149, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string>Hand Two</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_38">
-    <property name="geometry">
-     <rect>
-      <x>1020</x>
-      <y>990</y>
-      <width>181</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border: 3px solid #E9B82B;
-background-color: rgb(149, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string>Hand Three</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_39">
-    <property name="geometry">
-     <rect>
-      <x>1460</x>
-      <y>990</y>
-      <width>181</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border: 3px solid #E9B82B;
-background-color: rgb(149, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string>Hand Four</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_start">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>1140</y>
+      <x>80</x>
+      <y>100</y>
       <width>181</width>
       <height>101</height>
      </rect>
@@ -927,6 +843,163 @@ background-color: rgb(149, 0, 0);</string>
     </property>
     <property name="text">
      <string>DOUBLE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_hand1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>450</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hand 1:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_hand2">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>450</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hand 2:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_hand3">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>450</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hand 3:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_hand4">
+    <property name="geometry">
+     <rect>
+      <x>1410</x>
+      <y>450</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hand 4:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>990</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;
+background-color: rgb(149, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>hand 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>990</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;
+background-color: rgb(149, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>hand 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>990</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;
+background-color: rgb(149, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>hand 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>1460</x>
+      <y>990</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #E9B82B;
+background-color: rgb(149, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>hand 4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_dealer">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>340</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>hand value:</string>
     </property>
    </widget>
    <zorder>lbl_ph41</zorder>
@@ -970,12 +1043,17 @@ background-color: rgb(149, 0, 0);</string>
    <zorder>lbl_d5</zorder>
    <zorder>lbl_d2</zorder>
    <zorder>lbl_d1</zorder>
-   <zorder>label_36</zorder>
-   <zorder>label_37</zorder>
-   <zorder>label_38</zorder>
-   <zorder>label_39</zorder>
    <zorder>btn_start</zorder>
    <zorder>btn_double</zorder>
+   <zorder>lbl_hand1</zorder>
+   <zorder>lbl_hand2</zorder>
+   <zorder>lbl_hand3</zorder>
+   <zorder>lbl_hand4</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>lbl_dealer</zorder>
   </widget>
  </widget>
  <resources/>
@@ -1092,6 +1170,70 @@ background-color: rgb(149, 0, 0);</string>
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_hand1_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>247</x>
+     <y>1010</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>988</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_hand2_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>691</x>
+     <y>1030</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>826</x>
+     <y>1012</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_hand3_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1081</x>
+     <y>1008</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1227</x>
+     <y>989</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_hand4_a()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1572</x>
+     <y>1026</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1701</x>
+     <y>1006</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>btn_hit_a()</slot>
@@ -1101,5 +1243,9 @@ background-color: rgb(149, 0, 0);</string>
   <slot>btn_exit_a()</slot>
   <slot>btn_start_a()</slot>
   <slot>btn_double_a()</slot>
+  <slot>btn_hand2_a()</slot>
+  <slot>btn_hand1_a()</slot>
+  <slot>btn_hand3_a()</slot>
+  <slot>btn_hand4_a()</slot>
  </slots>
 </ui>
